@@ -29,22 +29,23 @@ RabbitMQ supports several types of exchanges that determine how messages are rou
 
 Can be used for in serie processing
 
-![image](https://github.com/RodrigoPAml/RabbitMQ-Base-Repository/assets/41243039/6892fb91-43e6-495f-af55-cdd3a352aed3)
+![image](https://github.com/RodrigoPAml/RabbitMQ-Base-Repository/assets/41243039/c36d3e58-ccd5-4150-848d-0ba76f1913ff)
 
 ## Producer and two consumer competing in queue (ManyConsumers.cs)
 
 Can de used for load balance 
 
-![image](https://github.com/RodrigoPAml/RabbitMQ-Base-Repository/assets/41243039/d29b8a4b-628a-4e9b-bd01-7512b0d03519)
+![image](https://github.com/RodrigoPAml/RabbitMQ-Base-Repository/assets/41243039/7006238a-aeb3-48b7-8bca-a701268297b2)
 
 ## Produce to one or more queues (Exchange.cs)
 
 Used to distribute messages between diferent queues based on exchange 
 
-![1](https://github.com/RodrigoPAml/RabbitMQ-Base-Repository/assets/41243039/1dbb5f6a-d2f9-4659-b646-0ae56e875933)
+![image](https://github.com/RodrigoPAml/RabbitMQ-Base-Repository/assets/41243039/3b7bfff8-dfb0-4222-89f2-6d6a1cd4d810)
 
 ## Produce to one or more queues based on routing key (Routing.cs)
 
 Used to distribute messages between diferent queues based on routing queue 
 
-![Sem título](https://github.com/RodrigoPAml/RabbitMQ-Base-Repository/assets/41243039/f394112e-bf05-482e-be8b-e10acd1c07a1)
+![image](https://github.com/RodrigoPAml/RabbitMQ-Base-Repository/assets/41243039/8bd24d9b-aca0-4fe5-8713-edb2ef457a2a)
+
