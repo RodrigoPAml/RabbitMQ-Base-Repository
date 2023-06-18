@@ -2,6 +2,8 @@
 
 RabbitMQ is an open-source message broker software that implements the Advanced Message Queuing Protocol (AMQP). It provides a robust and scalable messaging system for applications to communicate and exchange data in a distributed architecture.
 
+Reference: https://www.rabbitmq.com/getstarted.html
+
 # Exchange types
 
 RabbitMQ supports several types of exchanges that determine how messages are routed to queues. Here's an overview of the different exchange types:
