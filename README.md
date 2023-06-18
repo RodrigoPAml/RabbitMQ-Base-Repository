@@ -33,7 +33,7 @@ Can be used for in serie processing
 
 ## Producer and two consumer competing in queue (ManyConsumers.cs)
 
-Can de used for load balance 
+Can be used for load balance 
 
 ![image](https://github.com/RodrigoPAml/RabbitMQ-Base-Repository/assets/41243039/7006238a-aeb3-48b7-8bca-a701268297b2)
 
