@@ -49,7 +49,6 @@ namespace Messageria
                             _channel.BasicNack(arg.DeliveryTag, false, true);
                             break;
                         case ErrorBehaviourEnum.Ack:
-
                             break;
                     }
 

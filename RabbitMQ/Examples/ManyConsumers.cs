@@ -15,9 +15,9 @@ namespace Examples
         /// </summary>
         public static void Execute()
         {
+            // Create two consumers
             Consumer consumer1 = new Consumer("localhost", "guest", "guest");
 
-            // Create two consumers
             consumer1.DeclareQueue("queue");
             consumer1.RegisterConsumer("queue", callback: OnRecieveMessage);
 
