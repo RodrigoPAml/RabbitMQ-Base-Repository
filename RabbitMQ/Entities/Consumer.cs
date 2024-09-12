@@ -46,12 +46,12 @@ namespace Messageria
                             _channel.BasicNack(arg.DeliveryTag, false, true);
                             break;
                         case ErrorBehaviourEnum.Nack:
-                            _channel.BasicNack(arg.DeliveryTag, false, true);
+                            _channel.BasicNack(arg.DeliveryTag, false, false);
                             break;
                         case ErrorBehaviourEnum.Ack:
+                            _channel.BasicAck(arg.DeliveryTag, false);
                             break;
                     }
-
                 }
             };
 
